@@ -1,0 +1,23 @@
+public class if1 {
+    public static void main(String[] arg) {
+       boolean money = true;
+       if (money){
+           System.out.println("You can take taxi");
+       }else {
+           System.out.println("walk to home");
+       }
+       int x = 3;
+       int y = 2;
+       System.out.println(x > y);
+       System.out.println(x == y);
+       System.out.println(x != y);
+
+       int budget = 2000;
+       if (budget >= 3000) {
+           System.out.println("You can take taxi");
+       }else {
+           System.out.println("walk to home");
+       }
+
+    }
+}
