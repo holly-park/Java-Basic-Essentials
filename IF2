@@ -1,0 +1,36 @@
+import java.util.ArrayList;
+
+public class if2 {
+    public static void main(String[] args) {
+        int money = 2000;
+        boolean hasCard = true;
+
+        if (money>=3000 || hasCard){
+            System.out.println("You can take TAXI");
+        }else {
+            System.out.println("walk to home");
+        }
+        
+        ArrayList<String> pocket = new ArrayList<String>();
+        pocket.add("paper");
+        pocket.add("handphone");
+        pocket.add("money");        
+        
+        if (pocket.contains("money")){
+            System.out.println("You can take TAXI");
+        }else{
+            System.out.println("walk to home");
+        }
+        
+        System.out.println(pocket.remove(2));
+
+        if (pocket.contains("money")){
+            System.out.println("You can take TAXI");
+        }else if(hasCard) {
+            System.out.println("You can take public transportation!");
+        }else {
+            System.out.println("walk to home");
+        }
+
+    }
+}
