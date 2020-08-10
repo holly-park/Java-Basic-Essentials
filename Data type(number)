@@ -1,0 +1,20 @@
+public class datatype {
+    public static void main(String[] args){
+        
+        int age=10;
+        long countOfStar = 875328098753L;
+        float pi =3.14F;
+        double morePi = 3.14159265358;
+
+        //8진수
+        int octal = 023;
+        //10진수
+        int hex = 0xC;
+        System.out.println(age);
+        System.out.println(countOfStar);
+        System.out.println(pi);
+        System.out.println(morePi);
+        System.out.println(octal);
+        System.out.println(hex);
+    }
+}
