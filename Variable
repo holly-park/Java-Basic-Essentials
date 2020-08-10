@@ -1,0 +1,40 @@
+public class variables {
+    public static void main(String[] args){
+        
+        int number1=30; //int형 변수 number1선언하고 숫자값 30을 변수에 저장
+        int number2=200;
+        boolean booleanType=true;  //논리형
+        char abc='a';   //문자형
+
+        //정수형 int, long, byte(이진데이터), shor
+        byte byteT=127;
+        short shortT=32767;
+        int intT=214729582;
+        long longT=9274923092798743L;  //long타입을 쓸 떄는 대소문자 상관없이 L자를 붙여야 함
+
+        //실수형 float, double
+        float floatT=3.4523F;  //float타입을 쓸 때는 F를 붙여야 함
+        double doubleT=1.2356786;
+
+        int a =10;
+        int b =5;
+
+        
+        System.out.println(number1);
+        System.out.println(number2);
+        System.out.println(booleanType);
+        System.out.println(abc);
+        System.out.println(byteT);
+        System.out.println(shortT);
+        System.out.println(intT);
+        System.out.println(longT);
+        System.out.println(floatT);
+        System.out.println(doubleT);
+        System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println(a*b);
+        System.out.println(a/b);
+        System.out.println(b%a);
+
+    }
+}
