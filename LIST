@@ -1,0 +1,41 @@
+import java.util.ArrayList;  //list 배열 타입 불러오기
+import java.util.Iterator;   //iterator 타입 불러오기
+
+
+public class listtp {
+    public static void main(String[] args) {
+        ArrayList<Integer> pitches = new ArrayList<Integer>();  //제네릭스(generics)
+        pitches.add(138);
+        pitches.add(129);
+        pitches.add(142);
+
+        pitches.add(0, 133);
+        pitches.add(2, 155);
+
+        System.out.println(pitches.get(0));   //0번째 index 출력
+        System.out.println(pitches.get(1));   //1번째 index 출력
+
+        //for문을 통한 전체출력
+        for(Integer i : pitches){
+            System.out.println(i);
+        }
+
+        //while문을 통한 전체출력
+        Iterator<Integer> iter = pitches.iterator(); //iterator 선언
+        while(iter.hasNext()){//다음값이 있는지 확인
+            System.out.println(iter.next()); //값 출력
+        }
+
+        System.out.println(pitches.contains(1)); //pitches에 1이 있는지
+        System.out.println(pitches.indexOf(138)); //138이 있는 index반환
+        System.out.println(pitches.get(1)); //2번째 인덱스의 값 반환
+        System.out.println(pitches.size());  //pitches의 인덱스 갯수
+        System.out.println(pitches.remove(4)); //5번째 항목(142)이 삭제된 후 142리턴
+        
+
+
+
+
+
+    }
+}
