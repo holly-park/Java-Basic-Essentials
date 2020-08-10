@@ -1,0 +1,33 @@
+public class stringtype {
+    public static void main(String[] args) {
+        String a = "Hello Java";
+        System.out.println(a.indexOf("Java")); // Java라는 문자열이 시작되는 위치
+
+        String b = "Hello Java";
+        System.out.println(b.replace("Java", "World")); // replace
+        System.out.println(b.substring(0, 4)); // substring
+        System.out.println(b.toUpperCase()); // toUpperCase
+
+        // stringbuffer: append 메소드를 이용해 계속해서 문자열 추가
+        StringBuffer sb = new StringBuffer();
+        sb.append("hello");
+        sb.append(" ");
+        sb.append("jump to java");
+        System.out.println(sb);
+        System.out.println(sb.toString()); // toString()메소드를 이용하면 string자료형으로 변경
+        
+        sb.insert(0, "addddd ");  //insert
+        
+        String temp = "";
+        temp += "hello";
+        temp += " ";
+        temp += "jump to java";
+        System.out.println(temp);
+        System.out.println(temp.substring(0, 4)); // substring
+
+        
+         
+       
+    }
+    
+}
