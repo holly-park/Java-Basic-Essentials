@@ -1,0 +1,25 @@
+public class operator {
+    public static void main(String[] args){
+        int a= 10;
+        int b= 5;
+        int c= 30;
+        int d= 0;
+        int e= 0;
+        b++;
+        c--;
+        
+        System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println(a*b);
+        System.out.println(a/b);
+        System.out.println(a%b);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d++); // 해당 코드가 실행되는 순간에는 i 값이 변경되지 않는다. 
+        System.out.println(d);  //i++ 문장이 실행된 이후에 i값이 증가하게 된다. 
+        System.out.println(++e);
+        System.out.println(e);
+        
+
+    }
+}
