@@ -1,0 +1,16 @@
+import java.util.Arrays;  //array출력하기
+
+public class arraytp {
+    public static void main(String[] args) {
+        String[] weeks = new String[7]; //배열 변수를 만들 때는 반드시 길이값이 필요하다
+        weeks[0] = "월";
+        weeks[1] = "화";
+        weeks[2] = "수";
+        weeks[3] = "목";
+        weeks[4] = "금";
+        weeks[5] = "토";
+        weeks[6] = "일";
+        System.out.println(weeks[3]);
+        System.out.println(Arrays.toString(weeks));
+    }
+}
