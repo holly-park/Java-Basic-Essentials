@@ -1,0 +1,25 @@
+public class Boolean1 {
+    public static void main(String[] args) {
+        int base = 180;
+        int height = 185;
+        boolean isTall = height>base;
+
+        if(isTall){
+            System.out.println("키가 큽니다");}
+
+        int i = 3;
+        boolean isOdd = i % 2 ==1;
+        System.out.println(isOdd);
+
+        String a= "hello";
+        String b= "java";
+        String c= "hello";
+        System.out.println(a.equals(b));
+        System.out.println(a.equals(c));
+
+        String d= new String("hello");
+        System.out.println(a.equals(d)); //문자열의 값 비교
+        System.out.println(a==b);  //a와 b가 동일한 객체인지
+        
+    }
+}
